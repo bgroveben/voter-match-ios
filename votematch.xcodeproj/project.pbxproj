@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05DD3EE199DAA6200CD2646 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05DD3ED199DAA6200CD2646 /* Alert.swift */; };
 		A0F269E6199D93DA00A1CC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F269E5199D93DA00A1CC6A /* AppDelegate.swift */; };
 		A0F269E9199D93DA00A1CC6A /* votematch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F269E7199D93DA00A1CC6A /* votematch.xcdatamodeld */; };
 		A0F269EB199D93DA00A1CC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F269EA199D93DA00A1CC6A /* ViewController.swift */; };
 		A0F269EE199D93DA00A1CC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F269EC199D93DA00A1CC6A /* Main.storyboard */; };
 		A0F269F0199D93DA00A1CC6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F269EF199D93DA00A1CC6A /* Images.xcassets */; };
 		A0F269FC199D93DA00A1CC6A /* votematchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F269FB199D93DA00A1CC6A /* votematchTests.swift */; };
+		A0F26A06199D93F300A1CC6A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F26A05199D93F300A1CC6A /* RegisterViewController.swift */; };
+		A0F26A08199D944900A1CC6A /* AlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F26A07199D944900A1CC6A /* AlamoFire.swift */; };
+		A0F26A0A199D959000A1CC6A /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F26A09199D959000A1CC6A /* AppUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A05DD3ED199DAA6200CD2646 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		A0F269E0199D93DA00A1CC6A /* votematch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = votematch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F269E4199D93DA00A1CC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F269E5199D93DA00A1CC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		A0F269F5199D93DA00A1CC6A /* votematchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = votematchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F269FA199D93DA00A1CC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F269FB199D93DA00A1CC6A /* votematchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votematchTests.swift; sourceTree = "<group>"; };
+		A0F26A05199D93F300A1CC6A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A0F26A07199D944900A1CC6A /* AlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamoFire.swift; path = ../../todayILearned/todayILearned/AlamoFire.swift; sourceTree = "<group>"; };
+		A0F26A09199D959000A1CC6A /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,12 @@
 		A0F269E2199D93DA00A1CC6A /* votematch */ = {
 			isa = PBXGroup;
 			children = (
+				A0F26A07199D944900A1CC6A /* AlamoFire.swift */,
 				A0F269E5199D93DA00A1CC6A /* AppDelegate.swift */,
 				A0F269EA199D93DA00A1CC6A /* ViewController.swift */,
+				A05DD3ED199DAA6200CD2646 /* Alert.swift */,
+				A0F26A09199D959000A1CC6A /* AppUser.swift */,
+				A0F26A05199D93F300A1CC6A /* RegisterViewController.swift */,
 				A0F269EC199D93DA00A1CC6A /* Main.storyboard */,
 				A0F269EF199D93DA00A1CC6A /* Images.xcassets */,
 				A0F269E7199D93DA00A1CC6A /* votematch.xcdatamodeld */,
@@ -214,6 +226,10 @@
 				A0F269EB199D93DA00A1CC6A /* ViewController.swift in Sources */,
 				A0F269E6199D93DA00A1CC6A /* AppDelegate.swift in Sources */,
 				A0F269E9199D93DA00A1CC6A /* votematch.xcdatamodeld in Sources */,
+				A0F26A06199D93F300A1CC6A /* RegisterViewController.swift in Sources */,
+				A0F26A0A199D959000A1CC6A /* AppUser.swift in Sources */,
+				A0F26A08199D944900A1CC6A /* AlamoFire.swift in Sources */,
+				A05DD3EE199DAA6200CD2646 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +415,7 @@
 				A0F26A01199D93DA00A1CC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0F26A02199D93DA00A1CC6A /* Build configuration list for PBXNativeTarget "votematchTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +424,7 @@
 				A0F26A04199D93DA00A1CC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
